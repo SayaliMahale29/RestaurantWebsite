@@ -1,0 +1,110 @@
+#navbar1 h4 {
+  padding: 7px 0px;
+  font-size: 15px;
+}
+
+#logo1 {
+  padding: 6px;
+}
+
+#num {
+  font-size: 14px;
+}
+
+#navbar2 ul li a {
+  padding: 5px 5px;
+}
+
+#navbar2 ul li {
+  font-size: 13px;
+}
+
+#navbar2 {
+  position: sticky;
+  top: 1px;
+}
+
+#logo2 {
+  padding: 0px 0px;
+  margin: 9px;
+}
+
+#home h1 {
+  font-size: 25px;
+  padding: 2px 0px 4px 0px;
+}
+
+#home h3 {
+  font-size: 0.8rem;
+  padding: 0.2rem;
+}
+
+#home p {
+  font-size: 1rem;
+  padding: 2px 0px 0px 7px;
+}
+
+#home {
+  padding: 120px 10px 10px 10px;
+}
+
+#menu h1 {
+  padding: 184px 37px 0px 11px;
+}
+
+#menu .box {
+  padding: 0px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+}
+
+.box div {
+  padding: 0px;
+}
+
+.container {
+  width: 60vh;
+}
+.panel:nth-of-type(2),
+.panel:nth-of-type(3) {
+  display: none;
+}
+
+.panel h3 {
+  font-size: 14px;
+  position: absolute;
+  padding: 330px 0px 10px 92px;
+  opacity: 0;
+  color: black;
+}
+.panel p {
+  font-size: 23px;
+  position: absolute;
+  font-size: 1rem;
+  margin: 0;
+  opacity: 0;
+  color: black;
+  padding: 57px 4px 10px 29px;
+}
+
+.form-group input {
+  width: 183px;
+  padding: 10px 10px 10px 10px;
+  margin: 20px -130px 10px 22px;
+}
+.container-Register {
+  margin: 15px 269px 0px 16px;
+  padding: 44px 7px 95px 10px;
+  width: 86%;
+}
+.container-Register h1 {
+  padding: 10px 10px 10px 10px;
+}
+
+.container-Register button {
+  margin: 20px -130px 10px 22px;
+  width: 205px;
+}

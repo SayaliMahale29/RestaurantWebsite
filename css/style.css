@@ -1,0 +1,293 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* CSS Variables */
+:root {
+  --navbar-height: 56px;
+}
+
+/* Navigation Bar :- 1 */
+#navbar1 {
+  display: flex;
+  align-items: center;
+  /* border: 2px solid blue; */
+  background-color: rgb(112 84 32 / 51%);
+}
+
+/* Navigation Bar :- 1  :: Logo and image */
+#logo1 {
+  padding: 10px;
+}
+
+#navbar1 h4 {
+  padding: 0px 19px;
+}
+
+.right {
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+  top: 0px;
+}
+
+/* Navigation Bar :- 2 */
+#navbar2 {
+  position: sticky;
+  top: 0px;
+  background-color: rgb(151 111 40 / 46%);
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  /* border: 2px solid red; */
+  font-family: "Cinzel", serif;
+}
+
+/* Navigation Bar :- 2  :: Logo and image */
+
+/* Navigation Bar :- 2  :: Logo and image */
+#logo2 {
+  padding: 1px 1px;
+  margin: 14px;
+}
+
+/* Navigation Bar :- 2  :: List Styling  */
+#navbar2 ul {
+  display: flex;
+  color: black;
+}
+
+#navbar2::before {
+  content: "";
+  /* background-color: aqua; */
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.2;
+}
+
+#navbar2 ul li {
+  list-style: none;
+  font-size: 1.1rem;
+  color: black;
+}
+
+#navbar2 ul li a {
+  padding: 10px 37px;
+  display: block;
+  border-radius: 10px;
+  /* background-color: aqua; */
+  text-decoration: none;
+  color: black;
+}
+
+#navbar2 ul li a:hover {
+  color: blueviolet;
+}
+
+/* Home Section */
+#home {
+  height: 183px;
+  display: flex;
+  flex-direction: column;
+  padding: 151px;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid pink; */
+}
+
+#home::before {
+  content: "";
+  background: url("https://cdn.pixabay.com/photo/2021/07/29/12/43/curry-6507120_1280.jpg")
+    no-repeat center center/cover;
+  position: absolute;
+  height: 113%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.8;
+}
+
+#home h1 {
+  text-align: center;
+  font-size: 3.5rem;
+  font-family: "Amiri", serif;
+}
+
+#home h3 {
+  font-size: 2rem;
+  font-family: "Cinzel", serif;
+  padding: 0.3rem;
+}
+
+#home p {
+  font-size: 1.16rem;
+  padding: 0.5rem 10.3rem;
+  font-family: "Amiri", serif;
+}
+
+/* Menu Section */
+#menu {
+  margin: 7px;
+  padding: 10px;
+}
+
+#menu h1 {
+  padding: 104px 1px 10px 10px;
+  font-family: "Amiri", serif;
+}
+
+#menu .box {
+  padding: 19px;
+  /* border: 2px solid blueviolet; */
+}
+
+#menu .box img {
+  height: 150px;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  font-family: "Cinzel", serif;
+}
+
+.box div {
+  padding: 22px;
+}
+
+/* Utility classes */
+.h-primary {
+  font-size: 2.7rem;
+  padding: 1px;
+  font-family: "Amiri", serif;
+}
+
+.h-secondary {
+  font-size: 1.7rem;
+  padding: 1px;
+}
+
+.center {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  width: 90vw;
+}
+
+.panel {
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  border-radius: 50px;
+  color: aliceblue;
+  cursor: pointer;
+  flex: 0.5;
+  margin: 10px;
+  position: relative;
+  transition: flex 0.7s ease-in;
+}
+
+.panel h3 {
+  font-size: 23px;
+  position: absolute;
+  padding: 223px;
+  opacity: 0;
+  color: black;
+}
+.panel p {
+  font-size: 23px;
+  position: absolute;
+  font-size: 1rem;
+  margin: 0;
+  opacity: 0;
+  color: black;
+  padding: 109px 193px;
+}
+
+.panel.active {
+  flex: 8;
+}
+
+.panel.active h3,
+.panel.active p {
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
+}
+
+@media (max-width: 120px) {
+  .container {
+    width: 100vh;
+  }
+  .panel:nth-of-type(1),
+  .panel:nth-of-type(2) {
+    display: none;
+  }
+}
+
+.btn {
+  margin: 10px 10px;
+  background-color: whitesmoke;
+  color: darkred;
+  padding: 3px;
+  border: 3px solid black;
+  font-size: 15px;
+  cursor: pointer;
+  font-family: "Cinzel", serif;
+}
+
+.btn:hover {
+  background-color: black;
+  cursor: pointer;
+}
+.container-Register {
+  /* border: 2px solid grey; */
+  margin: 50px 60px;
+  padding: 78px 300px;
+  background-color: #c1a5954d;
+  width: 44%;
+  border-radius: 9px;
+}
+.container-Register {
+  text-align: center;
+}
+.container-Register h1 {
+  color: black;
+  padding-bottom: 26px;
+  font-family: "Amiri", serif;
+}
+.container-Register button {
+  /* padding-top: 10px; */
+  text-align: center;
+  display: block;
+  margin: 21px;
+  width: 518px;
+  height: 29px;
+  border-radius: 5px;
+  background-color: #e9d38396;
+}
+.form-group input {
+  border-radius: 36px;
+  text-align: center;
+  display: block;
+  width: 510px;
+  padding: 19px;
+  font-size: 15px;
+  height: 0px;
+  border-top: #c1a5954d;
+  border-left: #c1a5954d;
+  border-right: #c1a5954d;
+  background: none;
+  border-bottom: 2px solid #abb3319c;
+  margin: 5px;
+  font-family: "Cinzel", serif;
+}

@@ -1,0 +1,67 @@
+#navbar2 ul li a {
+  padding: 2px 11px;
+}
+
+#home h1 {
+  font-size: 2.5rem;
+}
+
+#home h3 {
+  font-size: 1rem;
+
+  padding: 0.3rem;
+}
+
+#home p {
+  font-size: 1rem;
+  padding: 0.5rem 3.3rem;
+}
+
+#menu {
+  margin: 3px;
+  padding: 7px;
+}
+
+#menu h1 {
+  padding: 180px 37px 0px 11px;
+}
+
+#menu .box {
+  padding: 20px;
+}
+
+#menu .box img {
+  height: 100px;
+}
+
+#menu p {
+  font-size: 14px;
+}
+
+#menu h2 {
+  font-size: 21px;
+}
+
+#menu h3 {
+  font-size: 16px;
+}
+
+.box div {
+  padding: 5px;
+}
+
+.form-group input {
+  width: 300px;
+  padding: 20px 6px 15px 117px;
+  margin: 8px -164px;
+}
+.container-Register {
+  margin: 57px 90px;
+  padding: 59px 200px;
+  width: 15%;
+}
+
+.container-Register button {
+  margin: 30px -130px;
+  width: 363px;
+}

@@ -1,0 +1,51 @@
+/* body {
+  background-color: aqua;
+} */
+
+#navbar1 h4 {
+  padding: 7px 0px;
+  font-size: 15px;
+}
+
+#home {
+  padding: 143px 10px 10px 10px;
+}
+
+#logo2 {
+  padding: 0px 1px;
+  margin: 12px 14px;
+}
+
+#menu {
+  margin: 20px;
+  padding: 152px 0px 10px 10px;
+}
+
+#menu h1 {
+  padding: 22px 1px 10px 10px;
+}
+.panel h3 {
+  padding: 243px 154px;
+}
+
+.panel p {
+  margin: 0;
+  padding: 136px 60px;
+}
+
+.container-Register button {
+  margin: 21px -100px;
+  width: 350px;
+}
+
+.form-group input {
+  width: 442px;
+  padding: 18px 0px 10px 0px;
+  margin: 8px -100px;
+}
+
+.container-Register {
+  margin: 57px 101px;
+  padding: 59px 320px;
+  width: 20%;
+}

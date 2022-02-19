@@ -1,0 +1,16 @@
+.form-group input {
+  width: 400px;
+  padding: 18px 0px 10px 0px;
+  margin: 8px -164px;
+  text-align: left;
+}
+.container-Register {
+  margin: 57px 90px;
+  padding: 59px 270px;
+  width: 15%;
+}
+
+.container-Register button {
+  margin: 21px -143px;
+  width: 350px;
+}
